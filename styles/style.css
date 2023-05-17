@@ -1,0 +1,433 @@
+.barchasi .aside {
+  width: 20%;
+  height: 100%;
+  background-color: #F4F9F8;
+}
+.barchasi .aside aside {
+  padding: 21px 20px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: fixed;
+}
+.barchasi .aside aside nav ul {
+  width: 90%;
+  padding: 0px 0px 0px 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.barchasi .aside aside nav ul li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.barchasi .aside aside nav ul li p {
+  font-size: 18px;
+}
+.barchasi .aside aside nav ul li:hover {
+  color: #a90000;
+}
+.barchasi .aside aside .div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: rgba(47, 159, 248, 0.1);
+  width: 243px;
+  height: 50px;
+  border-radius: 0px 37px 37px 0px;
+  cursor: pointer;
+}
+.barchasi .aside aside .div p {
+  width: 6px;
+  height: 6px;
+  background-color: #2F9FF8;
+}
+.barchasi .aside aside .div strong {
+  font-size: 18px;
+  color: #2F9FF8;
+}
+
+.barchasi main {
+  width: 80%;
+  height: 2050px;
+  background-color: #E5E5E5;
+  display: flex;
+  flex-wrap: wrap;
+}
+.barchasi main button {
+  cursor: pointer;
+}
+.barchasi main .tepa {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+.barchasi main .tepa input {
+  width: 495px;
+  height: 46px;
+  background-color: rgba(47, 159, 248, 0.04);
+  border-radius: 4px;
+  padding: 14px;
+  border: 1px solid rgb(47, 158, 248);
+}
+.barchasi main .tepa img {
+  cursor: pointer;
+}
+.barchasi main .oddiy_soz {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  padding: 35px;
+}
+.barchasi main .chap_qism {
+  width: 70%;
+  height: 1900px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 0px 35px;
+}
+.barchasi main .chap_qism .d1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+  padding: 35px 0px;
+}
+.barchasi main .chap_qism .d1 button {
+  border: none;
+  padding: 6px 17px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+.barchasi main .chap_qism .d1 .kok {
+  background-color: #2F9FF8;
+}
+.barchasi main .chap_qism .dd1 {
+  width: 100%;
+  height: 164px;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.barchasi main .chap_qism .dd1 .i1 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  row-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding: 17px 23px;
+}
+.barchasi main .chap_qism .dd1 .i1 .uzun {
+  font-size: 14px;
+}
+.barchasi main .chap_qism .dd1 .i1 .qisqa {
+  font-size: 12px;
+}
+.barchasi main .chap_qism .dd1 .i1 .qisqa2 {
+  font-size: 12px;
+  margin-right: 40px;
+}
+.barchasi main .chap_qism .dd1 .i1 .bir {
+  font-size: 12px;
+  color: #0768B5;
+}
+.barchasi main .chap_qism .dd1 .i2 {
+  width: 30%;
+  height: 100%;
+  padding: 1px 14px;
+}
+.barchasi main .chap_qism .dd1 .i2 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.barchasi main .chap_qism .dd3 {
+  width: 48%;
+  height: 191px;
+  display: flex;
+  padding: 17px 23px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  background-color: #FFFFFF;
+}
+.barchasi main .chap_qism .dd2 {
+  width: 48%;
+  height: 191px;
+  display: flex;
+  padding: 17px 23px;
+  background-color: #FFFFFF;
+}
+.barchasi main .chap_qism .dd2 .i1 {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 74px;
+       column-gap: 74px;
+  row-gap: 28px;
+}
+.barchasi main .chap_qism .dd2 .i1 .uzun {
+  font-size: 14px;
+}
+.barchasi main .chap_qism .dd2 .i1 .qisqa {
+  font-size: 12px;
+}
+.barchasi main .chap_qism .dd2 .i1 .qisqa2 {
+  font-size: 12px;
+}
+.barchasi main .chap_qism .dd2 .i2 {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  justify-content: flex-end;
+}
+.barchasi main .chap_qism .dd2 .i2 p {
+  font-size: 12px;
+  color: #2F9FF8;
+}
+.barchasi main .chap_qism .pastki-tepa {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.barchasi main .chap_qism .pastki-tepa .pat {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+}
+.barchasi main .chap_qism .pastki-tepa .odam {
+  width: 18%;
+  height: 185px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.barchasi main .chap_qism .pastki-tepa .odam p {
+  font-size: 14px;
+}
+.barchasi main .chap_qism .pastki-tepa .odam button {
+  padding: 7px 32px;
+  background-color: #2F9FF8;
+  border: none;
+  border-radius: 5px;
+}
+.barchasi main .chap_qism .fudbol {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 410px;
+  gap: 19px;
+}
+.barchasi main .chap_qism .button {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barchasi main .chap_qism .button button {
+  padding: 10px 21px;
+  border-radius: 5px;
+  border: none;
+  border: 0.2px solid #072D4B;
+}
+.barchasi main .chap_qism .tugadi {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.barchasi main .chap_qism .tugadi nav ul {
+  display: flex;
+  gap: 40px;
+}
+.barchasi main .chap_qism .tugadi nav ul li {
+  list-style: none;
+}
+.barchasi main .ong_qism {
+  width: 30%;
+  height: calc(100% - 150px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.barchasi main .ong_qism .quyosh {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 153px;
+  padding: 15px;
+}
+.barchasi main .ong_qism .quyosh .d1 {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.barchasi main .ong_qism .quyosh .d2 {
+  width: 100%;
+  height: 71px;
+  display: flex;
+}
+.barchasi main .ong_qism .quyosh .d2 .ong {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.barchasi main .ong_qism .quyosh .d2 .ong img {
+  width: 50px;
+  height: 27px;
+}
+.barchasi main .ong_qism .quyosh .d2 .chap {
+  width: 30%;
+  height: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: flex-end;
+}
+.barchasi main .ong_qism .quyosh .d3 {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.barchasi main .ong_qism .quyosh .d3 p {
+  font-size: 14px;
+}
+.barchasi main .ong_qism .pat {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+.barchasi main .ong_qism .pat .d1 {
+  width: 100%;
+  height: 30%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.barchasi main .ong_qism .pat .d2 {
+  width: 50%;
+  height: 70%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+.barchasi main .ong_qism .pat .d3 {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+}
+.barchasi main .ong_qism .pat .d3 button {
+  padding: 10px 17px;
+  border: 1px solid blue;
+  color: #2F9FF8;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.barchasi main .ong_qism .hujjat {
+  width: 100%;
+  height: 351px;
+  display: flex;
+  background-color: #FFFFFF;
+  flex-direction: column;
+}
+.barchasi main .ong_qism .hujjat .tepaa {
+  width: 100%;
+  height: 11%;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: 1px solid black;
+}
+.barchasi main .ong_qism .hujjat .tepaa nav {
+  display: flex;
+  gap: 15px;
+}
+.barchasi main .ong_qism .hujjat .pastt {
+  width: 100%;
+  height: 89%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.barchasi main .ong_qism .email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 164px;
+  background-color: #FFFFFF;
+  padding: 19px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.barchasi main .ong_qism .email input {
+  width: 244px;
+  height: 40px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0.1px solid #072D4B;
+}
+.barchasi main .ong_qism .email button {
+  padding: 10px 52px;
+  width: 244px;
+  background-color: #2F9FF8;
+  border: none;
+  border-radius: 5px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.barchasi {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

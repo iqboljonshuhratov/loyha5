@@ -1,0 +1,60 @@
+.barchasi {
+    .aside {
+        width: 20%;
+        height: 100%;
+        background-color: #F4F9F8;;
+        aside{
+        padding: 21px 20px 16px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: fixed;
+        nav ul {
+            width: 90%;
+            padding:0px 0px 0px 31px;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+
+            li {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                cursor: pointer;
+                p{
+                    font-size: 18px;
+                }
+
+                &:hover {
+                    color: #a90000;
+                }
+            }
+        }
+
+        .div {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            padding: 0px 15px;
+            background-color:  rgba(47, 159, 248, 0.1);
+            width: 243px;
+            height: 50px;
+            border-radius: 0px 37px 37px 0px;
+            cursor: pointer;
+
+            p {
+                width: 6px;
+                height: 6px;
+                background-color: #2F9FF8;
+
+            }
+
+            strong {
+                font-size: 18px;
+                color: #2F9FF8;
+            }
+        }
+    }
+}
+
+}
